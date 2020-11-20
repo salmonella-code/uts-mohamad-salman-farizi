@@ -20,6 +20,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div class="covid">
@@ -43,20 +50,274 @@
       </div>
       <div class="dropdown">
         <button class="dropbtn" onclick="myFunction()">
-          <img src="img/bendera.jpg" alt="bendera" srcset="">
+          <img src="img/bendera.jpg" alt="bendera" srcset="" />
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content" id="myDropdown">
           <a href="#">
-              <img src="img/bendera.jpg" alt="bendera Indonesia">
-              Bahasa Indonesia
+            <img src="img/bendera.jpg" alt="bendera Indonesia" />
+            Bahasa Indonesia
           </a>
           <a href="#">
-              <img src="img/bendera amerika.png" alt="bendera amerika" srcset="">
-              English
+            <img
+              src="img/bendera amerika.png"
+              alt="bendera amerika"
+              srcset=""
+            />
+            English
           </a>
         </div>
       </div>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-menu-left">
+        <img src="img/logo.webp" alt="" srcset="" />
+        <ul>
+          <li><a href="#">Tiket Pesawat</a></li>
+          <li><a href="#">Hotel</a></li>
+          <li><a href="#">To Do</a></li>
+          <li><a href="#">Tiket Kereta Api</a></li>
+          <li><a href="#">Sewa Mobil</a></li>
+          <li><a href="#">Event</a></li>
+        </ul>
+      </div>
+
+      <div class="navbar-menu-right">
+        <ul>
+          <li><a href="#">Elite Rewards</a></li>
+          <li><a href="#">Cek Order</a></li>
+          <li><a href="#">Login</a></li>
+          <li
+            style="
+              border-radius: 100px;
+              padding-left: 10px;
+              padding-right: 10px;
+              color: white;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            "
+          >
+            <a href="#" style="color: blue">Daftar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="slideshow-container">
+        <div class="mySlides1">
+          <img src="img/cr1.webp" style="width: 100%" />
+        </div>
+
+        <div class="mySlides1">
+          <img src="img/cr2.webp" style="width: 100%" />
+        </div>
+
+        <div class="mySlides1">
+          <img src="img/cr3.webp" style="width: 100%" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+
+      <div class="card-produck">
+        <div class="product-title">
+          <div class="text">
+            <h3>Hey, kamu</h3>
+            <h1>Mau ke mana?</h1>
+          </div>
+
+          <div class="title-img">
+            <div class="title-img-items">
+              <img src="img/img1.webp" alt="" srcset="" />
+              <p>Pesawat</p>
+            </div>
+            <div class="title-img-items">
+              <img src="img/img2.webp" alt="" srcset="" />
+              <p>Hotel</p>
+            </div>
+            <div class="title-img-items">
+              <img src="img/img3.webp" alt="" srcset="" />
+              <p>To Do</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="produck-form">
+          <div>
+            <div class="produck-form-left">
+              <h2>
+                <i
+                  class="fas fa-plane"
+                  style="
+                    border-radius: 100px;
+                    background-color: rgb(0, 100, 210);
+                    color: white;
+                    padding: 5px;
+                  "
+                ></i
+                >Cari harga tiket pesawat murah & promo di sini
+              </h2>
+            </div>
+            <div class="radio-button">
+              <label class="container"
+                >Sekali-jalan
+                <input type="checkbox" checked="checked" />
+                <span class="checkmark"></span>
+              </label>
+
+              <label class="container" style="margin-left: 10px"
+                >Pulang-pergi
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="produck-form-right">
+            <a href="#">Pencarian Terakhir ></a>
+          </div>
+        </div>
+
+        <div class="tiket">
+          <div class="tiket-items">
+            <p>Dari</p>
+            <h3>
+              <i
+                class="fas fa-plane-departure"
+                style="color: rgb(0, 100, 210)"
+              ></i>
+              Mau ke mana?
+            </h3>
+          </div>
+
+          <div class="tiket-items">
+            <p>Ke</p>
+            <h3>
+              <i
+                class="fas fa-plane-arrival"
+                style="color: rgb(0, 100, 210)"
+              ></i>
+              Mau ke mana?
+            </h3>
+          </div>
+
+          <div class="tiket-items">
+            <p>Berangkat</p>
+            <h3 style="color: rgb(53, 64, 90)">Jum, 20 November 2020</h3>
+          </div>
+
+          <div class="tiket-items">
+            <label
+              >Pulang
+              <input type="checkbox" checked="checked" />
+              <span class="checkmark"></span>
+            </label>
+            <h3 style="color: rgb(53, 64, 90)">Sab, 21 November 2020</h3>
+          </div>
+
+          <div class="tiket-items">
+            <p>Penumpang & kelas kabin</p>
+            <h3 style="color: rgb(53, 64, 90)">1 Penumpang, Ekonomi</h3>
+          </div>
+        </div>
+
+        <div class="footer-card">
+          <div class="footer-card-left">
+            <input type="checkbox" checked="checked" />
+            <label><b>Tampilkan tiket FLEXI</b> </label>
+            <p>
+              Tiket fleksibel yang bebas di-reschedule.
+              <a href="#">Lihat detail.</a>
+            </p>
+          </div>
+
+          <div class="footer-card-right">
+            <button>Cari Penerbangan</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-bottom">
+        <div class="text-bottom-left">
+          <div class="text-bottom-items">
+            <img src="img/book.webp" alt="" srcset="" />
+            <div class="text-bottom-items-text">
+              <h2>Simple Profile</h2>
+              <p>Pesan lebih cepat, isi data penumpang dengan sekali klik.</p>
+            </div>
+          </div>
+          <div class="text-bottom-items">
+            <img src="img/easy-ticket.webp" alt="" srcset="" />
+            <div class="text-bottom-items-text">
+              <h2>Simple Booking Process</h2>
+              <p>Pemesanan tanpa ribet di mana pun dan kapan pun.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-bottom-right">
+          <div class="text-bottom-items">
+            <img src="img/simple-reschedule.webp" alt="" srcset="" />
+            <div class="text-bottom-items-text">
+              <h2>Simple Reschedule</h2>
+              <p>Memudahkan kamu mengatur ulang penerbangan.</p>
+            </div>
+          </div>
+          <div class="text-bottom-items">
+            <img src="img/simple-refund.webp" alt="" srcset="" />
+            <div class="text-bottom-items-text">
+              <h2>Simple Profile</h2>
+              <p>Refund tiket tanpa ribet dari aplikasi maupun website.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fiture">
+        <h1>Fitur Baru untuk Liburan Lebih Aman!</h1>
+        <h3>
+          Dari tiket CLEAN untuk memastikan kebersihan, sampai tiket FLEXI yang
+          bisa dipakai sampai 1 tahun kedepan.
+        </h3>
+
+        <div class="fiture-card">
+          <div class="fiture-card-items">
+            <img
+              src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/original/home/2020/09/28/4e8075bc-662a-4055-a0ed-71d40018f525-1601278341856-c8149f87067ac62653dd10df7231515c.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+
+          <div class="fiture-card-items">
+            <img
+              src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/original/home/2020/09/28/2847aa1b-7e68-42c9-b59b-7025e79723dd-1601278359707-9b80f43511f7562d2db15fcf224b5b8c.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+
+          <div class="fiture-card-items">
+            <img
+              src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/original/home/2020/09/28/4e8075bc-662a-4055-a0ed-71d40018f525-1601278341856-c8149f87067ac62653dd10df7231515c.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+
+          <div class="fiture-card-items">
+            <img
+              src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/original/home/2020/09/28/2847aa1b-7e68-42c9-b59b-7025e79723dd-1601278359707-9b80f43511f7562d2db15fcf224b5b8c.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+        <button>Info Selengkapnya!</button>
+      </div>
+
     </div>
 
     <script src="js/app.js"></script>
