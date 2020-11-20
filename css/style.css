@@ -461,3 +461,26 @@ img {vertical-align: middle;}
   padding: 100px;
   border-bottom: 1px solid gray;
 }
+
+.deskripsi{
+  width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.deskripsi h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.deskripsi-item .img{
+  width: 100%;
+}
+
+.deskripsi-item{
+  display: flex;
+}
+
+.text h1{
+  text-align: left;
+}
