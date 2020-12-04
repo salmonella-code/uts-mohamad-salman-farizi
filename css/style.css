@@ -483,4 +483,246 @@ img {vertical-align: middle;}
 
 .text h1{
   text-align: left;
+  color: #35405a;
+}
+
+.text p{
+  width: 449px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #58627a;
+  margin-top: 4px;
+  margin-bottom: 38px;
+}
+
+.text a{
+  color: #0064d2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fiture-container{
+  text-align: center;
+  background-image: url("https://www.tiket.com/home-ms/assets/bg.png");
+}
+
+.fiture-container h1{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.fiture-container h2{
+  margin-top: 11%;
+  font-size: 35px;
+  text-align: center;
+  color: #35405a;
+  font-weight: bold;
+}
+
+.fiture-container img{
+  margin-top: -36px;
+  justify-items: flex-end;
+  display: grid;
+
+}
+
+.fiture-container-card{
+  margin: 0 auto;
+  background-color: white;
+  width: 1096px;
+  border: 25px solid rgb(247, 247, 247);
+  padding: 27px 24px;
+}
+
+.fiture-container-card .items-top{
+  display: flex;
+  justify-content: center;
+}
+
+.fiture-container-card .items-button{
+  display: flex;
+  justify-content: center;
+}
+
+
+.fiture-container-card-items{
+  width: 345px;
+  height: 295px;
+  padding: 0 16px;
+  margin-bottom: 25px;
+
+}
+
+.fiture-container-card-items h3{
+  margin: 16px 16px;
+  color: #35405a;
+}
+
+.fiture-container-card-items p{
+  color: #58627a;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.fiture-container-card-items img{
+  width: 110px;
+  margin: 0 auto;
+}
+
+/* footer top */
+.footer .footer-top{
+  display: flex;
+  padding: 45px 10px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer-content {
+  width: 320px;
+}
+
+.footer-content img{
+  width: 185px;
+}
+
+.footer-content .footer-content-items{
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.footer-content .footer-content-items img{
+  width: 40px;
+  height: 40px;
+}
+
+.span-gray{
+  color: #58627a;
+  display: block;
+}
+.footer-content .footer-content-items .footer-text span{
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.footer .footer-list h3{
+  color: #35405a;
+  margin-bottom: 30px;
+}
+
+.footer .footer-list {
+  width: 215px;
+}
+
+.footer .footer-list ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer .footer-list ul li{
+  margin-bottom: 5px;
+}
+
+.footer .footer-list ul li a{
+  text-decoration: none;
+  color: #58627a;
+  font-size: 14px;
+}
+.footer .footer-list ul li a:hover{
+  color: #0064d2;
+}
+
+/* //footer top */
+
+/* footer middel */
+.footer-middel{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.footer-middel .wonderfull-indonesia{
+  display: flex;
+  margin: auto 0;
+}
+
+.footer-middel .wonderfull-indonesia img{
+  width: 148px;
+}
+
+.footer-middel .wonderfull-indonesia span{
+  margin-left: 8px;
+  font-size: 10px;
+  color: #58627a;
+}
+
+.footer-middel .footer-middle-items{
+  display: inline;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.footer-middel .footer-middle-items h3{
+  font-size: 16px;
+  color: #35405a;
+  margin-bottom: 25px;
+}
+
+.footer-middel .footer-middle-items img{
+  height: 27px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-middel .footer-middle-items a i{
+  font-size: 30px;
+  color: #58627a;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+
+.footer-middel .footer-middle-items a i:hover{
+  color: #0064d2;
+}
+/* //footer middel */
+
+.footer-buttom{
+  text-align: center;
+  justify-content: center;
+  padding: 30px 0;
+  border-top: 1px solid rgb(247, 247, 247);
+  font-size: 14px;
+  color: #35405a;
+}
+
+.footer-buttom p img{
+  width: 145px;
+}
+
+.help-center-button{
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 30px;
+}
+
+.help-center-button .help-center-image-container{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 55px;
+  right: 30px;
+  background-color: #fff;
+  width: 195px;
+  padding: 10px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(53,64,90,.2);
+  box-shadow: 0 10px 20px 0 rgba(53,64,90,.2);
+  z-index: 2000;
+  cursor: pointer;
+}
+
+.help-center-button .help-center-image-container img{
+  width: 42px;
 }
