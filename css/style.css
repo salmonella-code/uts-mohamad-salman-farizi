@@ -746,7 +746,36 @@ img {vertical-align: middle;}
     padding-right: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    
+    position: fixed;
+    width: 95%;   
+  }
+
+  .navbar-mobile-buttom{
+    width: 95%;
+    background-color: white;
+    border-top: 1px solid gray;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .navbar-mobile-buttom button{
+    background-color: transparent;
+    border: none;
+    display: block;
+  }
+  
+
+  .navbar-mobile-buttom-items{
+    display: grid;
+    align-content: center;
+  }
+
+  .navbar-mobile-buttom-items span{
+    font-size: 10px;
   }
 
   .navbar-mobile-top img{
