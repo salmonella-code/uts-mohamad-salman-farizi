@@ -727,6 +727,12 @@ img {vertical-align: middle;}
   width: 42px;
 }
 
+@media screen and (min-width: 992px){
+  .mobile{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px){
   .covid, .navbar-country, .navbar-menu, .jumbotron, .help-center-button{
     display: none;
@@ -799,7 +805,7 @@ img {vertical-align: middle;}
 
   .text-box-mobile{
     display: flex;
-    margin: 10px;
+    margin: 10px 10px 25px 10px;
     border: 1px solid #dee2ee;
     border-radius: 10px;
     box-shadow: 0 3px 9px -5px rgba(53,64,90,.23);
@@ -822,5 +828,34 @@ img {vertical-align: middle;}
     height: 30px;
     border: none;
     border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
+  .covid-mobile, .harga-mobile{
+    color: #35405a;
+    margin: 10px;
+  }
+
+  .covid-mobile-carausel, .harga-mobile-carausel{
+    display: flex;
+  }
+
+  .covid-mobile-items, .harga-mobile-items{
+    width: 152px;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+
+  .covid-mobile-items img, .harga-mobile-items img{
+    width: 152px;
+    height: 184px;
+    border-radius: 10px;
+  }
+
+  .covid-mobile-items p, .harga-mobile-items p{
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
 }
